@@ -136,7 +136,7 @@ class _ListOfPlayersState extends State<ListOfPlayers> {
                               borderRadius: BorderRadius.circular(10),
                               color: isSkipped ? Colors.blueGrey : Colors.lightBlueAccent
                               ),
-                          child: const Text("BID", style: TextStyle(color: Colors.white)),
+                          child: const Text("BID"),
                         ),
                       ),
                      const SizedBox(width: 20),
