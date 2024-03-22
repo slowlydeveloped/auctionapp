@@ -1,7 +1,6 @@
 import 'package:auctionapp/common/button.dart';
 import 'package:auctionapp/team_pages/list_of_players.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get_storage/get_storage.dart';
 
 class TeamLoginPage extends StatefulWidget {
@@ -19,7 +18,7 @@ class _TeamLoginPageState extends State<TeamLoginPage> {
   final _storage = GetStorage();
 
   void login() {
-    
+
     List<dynamic> teams = _storage.read('teams') ?? [];
     String enteredEmail = emailController.text;
     String enteredPassword = passwordController.text;
